@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Luiza Ferrari Jaber | Desenhista de Quadrinhos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f4eb;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #d32f2f, #f57c00);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+        .subtitle {
+            font-size: 1.4rem;
+            margin-top: 10px;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        section {
+            margin-bottom: 60px;
+        }
+        h2 {
+            color: #d32f2f;
+            border-bottom: 3px solid #f57c00;
+            padding-bottom: 10px;
+        }
+        .about {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+        .comic {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .comic:hover {
+            transform: scale(1.03);
+        }
+        .comic img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .comic-info {
+            padding: 12px 15px;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+        a {
+            color: #d32f2f;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            background: #d32f2f;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ana Luiza Ferrari Jaber</h1>
+        <p class="subtitle">Desenhista de Quadrinhos • 15 anos de experiência</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>Sobre mim</h2>
+            <p>Sou desenhista com 15 anos de experiência, com estilos híbridos. Neste portfólio apresento, conforme solicitado, o enfoque em Histórias em Quadrinhos. Meu enfoque geral é criar tirinhas com humor, expressões marcantes e narrativas dinâmicas.</p>
+            <p><strong>Buscando oportunidade na Mauricio de Souza Produções</strong> para contribuir com o universo de personagens icônicos.</p>
+            <a href="mailto:alf.jaber@gmail.com" class="btn">Entrar em contato</a>
+        </section>
+
+        <section>
+            <h2>Portfólio - Histórias em Quadrinhos</h2>
+            <div class="gallery">
+                <div class="comic">
+                    <img src="imagens/tirinha1.jpg" alt="Tirinhas - Ana Luiza Ferrari Jaber">
+                    <div class="comic-info">Tirinhas com humor e expressões marcantes</div>
+                </div>
+                <div class="comic">
+                    <img src="imagens/tirinha2.jpg" alt="Tirinhas - Ana Luiza Ferrari Jaber">
+                    <div class="comic-info">Narrativas dinâmicas em quadrinhos</div>
+                </div>
+                <div class="comic">
+                    <img src="imagens/tirinha3.jpg" alt="Tirinhas - Ana Luiza Ferrari Jaber">
+                    <div class="comic-info">Estilo híbrido com forte narrativa</div>
+                </div>
+                <div class="comic">
+                    <img src="imagens/tirinha4.jpg" alt="Tirinhas - Ana Luiza Ferrari Jaber">
+                    <div class="comic-info">Trabalho em tirinhas humorísticas</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Ana Luiza Ferrari Jaber © 2026</p>
+        <p>Contato: <a href="mailto:alf.jaber@gmail.com">alf.jaber@gmail.com</a></p>
+        <p>Portfólio criado para candidatura na Mauricio de Souza Produções</p>
+    </footer>
+</body>
+</html>
